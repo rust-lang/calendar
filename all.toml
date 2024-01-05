@@ -1,0 +1,7 @@
+name = "Rust Project"
+description = "Meetings for all of the teams in the Rust project"
+
+[meta]
+includes = [
+  "compiler.toml"
+]

@@ -1,0 +1,58 @@
+name = "Rust Compiler Team"
+description = "Meetings for the compiler team and its working groups"
+
+[meta]
+includes = [
+  "rust-analyzer.toml",
+  "types.toml",
+  "wg-async.toml",
+  "wg-macros.toml"
+]
+
+[[events]]
+uid = "1704469565198"
+title = "Compiler Team Triage Meeting"
+description = "Weekly team meeting to discuss backports and nominated issues"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-01-05T15:46:00.00Z"
+start = "2024-01-11T15:00:00.00Z"
+end = "2024-01-11T16:00:00.00Z"
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "1704470086455"
+title = "Performance Triage Deadline"
+description = "Approximate time when performance triage should happen by"
+location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
+last_modified_on = "2024-01-05T15:56:00.00Z"
+start = "2024-01-09T16:00:00.00Z"
+end = "2024-01-09T17:00:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "1704470530167"
+title = "wg-debugging Triage Meeting"
+description = "Triage of outstanding debugging issues"
+location = "#t-compiler/wg-debugging on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/317568-t-compiler.2Fwg-debugging)"
+last_modified_on = "2024-01-05T16:01:00.00Z"
+start = "2024-01-15T15:00:00.00Z"
+end = "2024-01-15T16:00:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-debugging", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly" } ]
+
+[[events]]
+uid = "1704470683662"
+title = "Stable MIR Weekly Meeting"
+description = "Weekly meeting to discuss, plan and implement Stable MIR"
+location = "#project-stable-mir on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir)"
+last_modified_on = "2024-01-05T16:04:00.00Z"
+start = "2024-01-12T15:00:00.00Z"
+end = "2024-01-12T15:45:00.00Z"
+status = "confirmed"
+organizer = { name = "project-stable-mir", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]

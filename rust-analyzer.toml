@@ -1,0 +1,26 @@
+name = "Rust Analyzer Working Group"
+description = "Meetings for the Rust Analyzer working group"
+
+[[events]]
+uid = "1704471315272"
+title = "wg-rust-analyzer Weekly Sync-up"
+description = "Weekly team meeting of the Rust Analyzer working group"
+location = "#t-compiler/rust-analyzer on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0/topic/weekly.20sync-up)"
+last_modified_on = "2024-01-05T16:16:00.00Z"
+start = "2024-01-12T15:00:00.00Z"
+end = "2024-01-12T15:30:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-rust-analyzer", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "1704471430741"
+title = "wg-rust-analyzer Steering Meeting"
+description = "Steering meeting of the Rust Analyzer working group"
+location = "#t-compiler/rust-analyzer on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/185405-t-compiler.2Fwg-rls-2.2E0/topic/Steering.20meeting)"
+last_modified_on = "2024-01-05T16:18:00.00Z"
+start = "2024-01-26T15:00:00.00Z"
+end = "2024-01-26T16:00:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-rust-analyzer", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 6 } ]

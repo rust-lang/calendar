@@ -1,0 +1,26 @@
+name = "Rust Async Working Group Team"
+description = "Meetings for the async working group"
+
+[[events]]
+uid = "1704471961833"
+title = "wg-async Weekly Meeting"
+description = "First Thursday of each month is sprint planning. On other weeks we do deep dives, reading clubs, and open discussion."
+location = "#wg-async on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/187312-wg-async)"
+last_modified_on = "2024-01-05T16:27:00.00Z"
+start = "2024-01-11T17:00:00.00Z"
+end = "2024-01-11T18:00:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "1704472122081"
+title = "wg-async Triage Meeting"
+description = "A biweekly sync to do triage, check up on issues that are assigned, assign new issues."
+location = "#wg-async on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/187312-wg-async)"
+last_modified_on = "2024-01-05T16:28:00.00Z"
+start = "2024-01-15T16:30:00.00Z"
+end = "2024-01-15T17:00:00.00Z"
+status = "confirmed"
+organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
