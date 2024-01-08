@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4.1.1
       - name: Generate calendars
-        uses: davidtwco/toml-to-ical@main
+        uses: rust-lang/calendar-generation@main
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.0
         with:
