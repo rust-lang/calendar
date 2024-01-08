@@ -1,0 +1,31 @@
+name: generate calendars
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: generate
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.1
+      - name: Generate calendars
+        uses: davidtwco/toml-to-ical@main
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3.0.0
+        with:
+          path: 'result'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4.0.1
