@@ -3,5 +3,6 @@ description = "Meetings for all of the teams in the Rust project"
 
 [meta]
 includes = [
-  "compiler.toml"
+  "compiler.toml",
+  "dev-tools.toml"
 ]
