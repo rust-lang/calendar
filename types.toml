@@ -15,8 +15,8 @@ recurrence_rules = [ { frequency = "weekly" } ]
 
 [[events]]
 uid = "1704471680390"
-title = "Types Team: AFIT/RPITIT Impl Triage"
-description = "Regular triage of the implementation of AFIT/RPITIT"
+title = "Types Team: ITE (Impl Trait Everywhere) Triage"
+description = "Regular triage of the implementation of impl Trait-related features"
 location = "Jitsi (https://meet.jit.si/impl-trait-everywhere)"
 last_modified_on = "2024-01-05T16:22:00.00Z"
 start = "2024-01-11T21:00:00.00Z"
