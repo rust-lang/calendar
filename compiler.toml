@@ -6,7 +6,8 @@ includes = [
   "rust-analyzer.toml",
   "types.toml",
   "wg-async.toml",
-  "wg-macros.toml"
+  "wg-macros.toml",
+  "wg-performance.toml"
 ]
 
 [[events]]
@@ -19,18 +20,6 @@ start = "2024-01-11T15:00:00.00Z"
 end = "2024-01-11T16:00:00.00Z"
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
-
-[[events]]
-uid = "1704470086455"
-title = "Performance Triage Deadline"
-description = "Approximate time when performance triage should happen by"
-location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-05T15:56:00.00Z"
-start = "2024-01-09T16:00:00.00Z"
-end = "2024-01-09T17:00:00.00Z"
-status = "confirmed"
-organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
 
 [[events]]
