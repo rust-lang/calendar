@@ -25,6 +25,7 @@ current calendars in this repository:
   - [Dev Tools Team](https://rust-lang.github.io/calendar/dev-tools.ics)
     - [Cargo Team](https://rust-lang.github.io/calendar/cargo.ics)
     - [Clippy Team](https://rust-lang.github.io/calendar/clippy.ics)
+    - [Rustdoc Team](https://rust-lang.github.io/calendar/rustdoc.ics)
     - [Testing DevEx Team](https://rust-lang.github.io/calendar/testing-devex.ics)
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infra.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
