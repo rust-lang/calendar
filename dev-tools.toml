@@ -3,5 +3,6 @@ description = "Meetings for the dev tools team and its sub-teams"
 
 [meta]
 includes = [
+  "cargo.toml",
   "clippy.toml"
 ]
