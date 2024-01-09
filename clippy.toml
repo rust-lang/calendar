@@ -1,14 +1,17 @@
 name = "Clippy Team"
 description = "Meetings for the Clippy team"
 
+[meta]
+includes = [ "_timezones.toml" ]
+
 [[events]]
 uid = "1704736291099"
 title = "Clippy meeting"
 description = "Biweekly team meeting of the Clippy team"
 location = "#clippy on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/clippy)"
-last_modified_on = "2024-01-08T18:00:00.00Z"
-start = "2024-01-09T16:00:00.00Z"
-end = "2024-01-09T16:30:00.00Z"
+last_modified_on = "2024-01-10T10:00:00.00Z"
+start = { date = "2024-01-09T08:00:00.00", timezone = "America/Los_Angeles" }
+end = { date = "2024-01-09T08:30:00.00", timezone = "America/Los_Angeles" }
 status = "confirmed"
 organizer = { name = "clippy", email = "clippy@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
