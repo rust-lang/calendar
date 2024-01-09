@@ -23,6 +23,7 @@ current calendars in this repository:
     - [Macros Working Group](https://rust-lang.github.io/calendar/wg-macros.ics)
     - [Performance Working Group](https://rust-lang.github.io/calendar/wg-performance.ics)
   - [Dev Tools Team](https://rust-lang.github.io/calendar/dev-tools.ics)
+    - [Cargo Team](https://rust-lang.github.io/calendar/cargo.ics)] 
     - [Clippy Team](https://rust-lang.github.io/calendar/clippy.ics)
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infrastructure.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
