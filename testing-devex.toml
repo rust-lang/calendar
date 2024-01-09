@@ -1,0 +1,19 @@
+name = "Testing DevEx Team"
+description = "Meetings for t-testing-devex"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "1704841317021"
+title = "Testing DevEx Team Weekly Meeting"
+description = """The Testing DevEx team's weekly meeting
+Notes: https://hackmd.io/6VBcIw8QQ1WGDbnFiW84mA"""
+location = "https://meet.jit.si/t-testing-devex-team"
+created_on = "2024-01-09T23:02:04.29Z"
+last_modified_on = "2024-01-09T23:02:04.29Z"
+start = { date = "2024-01-16T17:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-16T18:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "testing-devex", email = "tools@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
