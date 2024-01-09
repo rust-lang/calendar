@@ -1,0 +1,14 @@
+name: check calendars
+
+on:
+  pull_request:
+
+jobs:
+  generate:
+    name: generate
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.1
+      - name: Generate calendars
+        uses: rust-lang/calendar-generation@main
