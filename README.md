@@ -25,6 +25,7 @@ current calendars in this repository:
   - [Dev Tools Team](https://rust-lang.github.io/calendar/dev-tools.ics)
     - [Clippy Team](https://rust-lang.github.io/calendar/clippy.ics)
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infrastructure.ics)
+  - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
 
 You can copy these links and import them into your calendar application of choice.
