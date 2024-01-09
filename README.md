@@ -23,6 +23,7 @@ current calendars in this repository:
     - [Macros Working Group](https://rust-lang.github.io/calendar/wg-macros.ics)
   - [Dev Tools Team](https://rust-lang.github.io/calendar/dev-tools.ics)
     - [Clippy Team](https://rust-lang.github.io/calendar/clippy.ics)
+  - [Infrastructure Team](https://rust-lang.github.io/calendar/infrastructure.ics)
 
 You can copy these links and import them into your calendar application of choice.
 
@@ -84,6 +85,9 @@ See [*What is the schema for the calendars?*][schema] for a list of options you 
 ## How do I update an event?
 Modify whatever details you like - except `uid`, which **should never be changed** - and make sure
 to update `last_modified_on`.
+
+On Linux, you can get the current time in the right format in UTC with the command
+`TZ=UTC date -u +"%Y-%m-%dT%H:%M:%S.%2NZ"`.
 
 ## How do I remove an event?
 If the event isn't recurring, then you don't need to remove it, it'll just stay in the calendar

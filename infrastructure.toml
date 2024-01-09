@@ -1,0 +1,13 @@
+name = "Rust Infrastructure Team"
+description = "Meetings for the infrastructure team"
+
+[[events]]
+uid = "1704803011896"
+title = "Rust Infrastructure Team Meeting"
+description = "Weekly team meeting of the infrastructure team"
+location = "#t-infra on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/242791-t-infra)"
+last_modified_on = "2024-01-09T12:31:38.64Z"
+start = "2024-01-08T15:00:00.00Z"
+end = "2024-01-08T15:30:00.00Z"
+organizer = { name = "t-infra", email = "infra@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
