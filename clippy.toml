@@ -15,3 +15,36 @@ end = { date = "2024-01-09T08:30:00.00", timezone = "America/Los_Angeles" }
 status = "confirmed"
 organizer = { name = "clippy", email = "clippy@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
+
+[[events]]
+uid = "1704815323074"
+title = "Clippy Sync"
+description = "Biweekly sync of the Clippy repo and the Rust repo"
+location = "GitHub"
+last_modified_on = "2024-01-10T10:00:00.00Z"
+start = "2024-01-11"
+status = "confirmed"
+organizer = { name = "clippy", email = "clippy@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
+
+[[events]]
+uid = "1704815336806"
+title = "Clippy Backport"
+description = "Reminder for the Clippy backport happening one day before beta is branched in the Rust repo"
+location = "GitHub"
+last_modified_on = "2024-01-10T10:00:00.00Z"
+start = "2024-02-01"
+status = "confirmed"
+organizer = { name = "clippy", email = "clippy@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
+
+[[events]]
+uid = "1704815347063"
+title = "Clippy Release"
+description = "The Clippy release happening together with the Rust release"
+location = "GitHub"
+last_modified_on = "2024-01-10T10:00:00.00Z"
+start = "2024-02-08"
+status = "confirmed"
+organizer = { name = "clippy", email = "clippy@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
