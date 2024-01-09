@@ -1,0 +1,14 @@
+name = "Rust Embedded Devices WG"
+description = "Meetings for the Rust Embedded Devices Working Group"
+
+[[events]]
+uid = "1704827243369"
+title = "Rust Embedded Devices WG meeting"
+description = "Weekly public meeting of the embedded devices wg"
+location = "#rust-embedded on matrix.org (hhttps://app.element.io/#/room/#rust-embedded:matrix.org)"
+last_modified_on = "2024-01-09T20:00:00.00Z"
+start = { date = "2024-01-09T20:00:00.00", timezone = "Europe/Amsterdam" }
+end = { date = "2024-01-09T21:00:00.00", timezone = "Europe/Amsterdam" }
+status = "confirmed"
+organizer = { name = "Rust Embedded WG", email = "infrastructure@teams.rust-embedded.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 1 } ]

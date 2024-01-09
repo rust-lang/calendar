@@ -8,4 +8,5 @@ includes = [
   "infrastructure.toml",
   "lang.toml",
   "libs.toml",
+  "wg-embedded.toml",
 ]
