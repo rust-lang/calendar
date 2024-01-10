@@ -1,13 +1,16 @@
 name = "Rust Infrastructure Team"
 description = "Meetings for the infrastructure team"
 
+[meta]
+includes = [ "_timezones.toml" ]
+
 [[events]]
 uid = "1704803011896"
 title = "Rust Infrastructure Team Meeting"
 description = "Weekly team meeting of the infrastructure team"
 location = "#t-infra on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/242791-t-infra)"
-last_modified_on = "2024-01-09T12:31:38.64Z"
-start = "2024-01-08T15:00:00.00Z"
-end = "2024-01-08T15:30:00.00Z"
+last_modified_on = "2024-01-10T14:54:28.44Z"
+start = { date = "2024-01-08T16:00:00.00", timezone = "Europe/Amsterdam" }
+end = { date = "2024-01-08T16:30:00.00", timezone = "Europe/Amsterdam" }
 organizer = { name = "t-infra", email = "infra@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
