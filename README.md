@@ -26,7 +26,7 @@ current calendars in this repository:
     - [Cargo Team](https://rust-lang.github.io/calendar/cargo.ics)] 
     - [Clippy Team](https://rust-lang.github.io/calendar/clippy.ics)
     - [Testing DevEx Team](https://rust-lang.github.io/calendar/testing-devex.ics)
-  - [Infrastructure Team](https://rust-lang.github.io/calendar/infrastructure.ics)
+  - [Infrastructure Team](https://rust-lang.github.io/calendar/infra.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
   - [Embedded Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
