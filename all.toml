@@ -6,6 +6,6 @@ includes = [
   "compiler.toml",
   "dev-tools.toml",
   "infrastructure.toml",
-  "lang.toml",
+  "lang-not-exist.toml",
   "libs.toml",
 ]
