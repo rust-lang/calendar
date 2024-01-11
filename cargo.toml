@@ -40,7 +40,7 @@ title = "Cargo Resolver and PubGrub Office Hours"
 description = """Office hours to discuss dependency resolution in general, Cargo's Resolvers, or the PubGrub project"""
 location = "https://meet.jit.si/CargoOfficeHours"
 created_on = "2024-01-09T19:08:15.06Z"
-last_modified_on = "2024-01-09T19:08:15.06Z"
+last_modified_on = "2024-01-11T16:11:33.84Z"
 start = { date = "2024-01-17T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-17T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
