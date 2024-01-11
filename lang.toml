@@ -9,10 +9,11 @@ uid = "1704818143227"
 title = "Lang Team Triage Meeting (Open)"
 description = """Language team's weekly triage meeting. Agenda will be posted before the meeting."""
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-01-09T16:39:00.00Z"
+last_modified_on = "2024-01-11T10:00:00.00Z"
 start = { date = "2024-01-10T08:00:00.00", timezone = "America/Los_Angeles" }
 end = { date = "2024-01-10T09:00:00.00", timezone = "America/Los_Angeles" }
 status = "confirmed"
+transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
 
@@ -23,10 +24,11 @@ description = """The planning meeting is the first meeting of each month. We do 
 the state of our various ongoing projects and we also plan the meetings for the remainder of the \
 month"""
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-01-09T16:50:00.00Z"
+last_modified_on = "2024-01-11T10:00:00.00Z"
 start = { date = "2024-01-03T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-03T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
+transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "monthly" } ]
 
@@ -35,9 +37,10 @@ uid = "1704819113100"
 title = "HOLD: Lang Team Design Meeting"
 description = "https://github.com/orgs/rust-lang/projects/31/views/10"
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-01-09T16:53:00.00Z"
+last_modified_on = "2024-01-11T10:00:00.00Z"
 start = { date = "2024-01-10T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-10T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
+transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
