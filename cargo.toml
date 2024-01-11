@@ -36,8 +36,8 @@ recurrence_rules = [
 
 [[events]]
 uid = "1704827269860"
-title = "PubGrub Office Hours"
-description = """Office hours for the PubGrub project"""
+title = "Cargo Resolver and PubGrub Office Hours"
+description = """Office hours to discuss dependency resolution in general, Cargo's Resolvers, or the PubGrub project"""
 location = "https://meet.jit.si/CargoOfficeHours"
 created_on = "2024-01-09T19:08:15.06Z"
 last_modified_on = "2024-01-09T19:08:15.06Z"
