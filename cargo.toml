@@ -24,14 +24,14 @@ title = "Cargo Contributor Mentorship Office Hours"
 description = """Cargo Contributor Mentorship Office Hours"""
 location = "https://meet.jit.si/CargoOfficeHours"
 created_on = "2024-01-09T18:34:47.02Z"
-last_modified_on = "2024-01-09T18:34:47.02Z"
+last_modified_on = "2024-01-11T16:20:35.83Z"
 start = { date = "2024-01-10T10:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-10T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-cargo", email = "cargo@rust-lang.org" }
 recurrence_rules = [
-    { frequency = "weekly", by_day = [{ day = "wednesday", num = -1 }], by_hour = [10] },
-    { frequency = "weekly", by_day = [{ day = "thursday", num = -1 }], by_hour = [16] }
+    { frequency = "weekly", by_day = [{ day = "wednesday" }], by_hour = [10] },
+    { frequency = "weekly", by_day = [{ day = "thursday" }], by_hour = [16] }
 ]
 
 [[events]]
