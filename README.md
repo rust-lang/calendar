@@ -84,7 +84,7 @@ calendar has been published. Just use the current UNIX time to basically guarant
 overlap with anything or anyone else.
 
 On Linux, you can get the current UNIX time with  `date +%s%N | cut -b1-13`, and on Windows, with
-PowerShell, `([DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()`. Alternatively, you can copy the
+PowerShell, `([DateTimeOffset]::UtcNow).ToUnixTimeMilliseconds()`. Alternatively, you can copy the
 current UNIX time from a website like [currentmillis.com](https://currentmillis.com).
 
 See [*What is the schema for the calendars?*][schema] for a list of options you can set in an event.
