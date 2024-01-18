@@ -33,6 +33,7 @@ current calendars in this repository:
     - [Testing DevEx Team](https://rust-lang.github.io/calendar/testing-devex.ics)
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infra.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
+    - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
   - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
 
