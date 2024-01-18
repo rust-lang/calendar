@@ -16,6 +16,7 @@ Each of the toml files in this repository generates an `ics` file of the same na
 current calendars in this repository:
 
 - [All teams and working groups](https://rust-lang.github.io/calendar/all.ics)
+  - [Leadership Council](https://rust-lang.github.io/calendar/council.ics)
   - [Compiler Team + Working Groups](https://rust-lang.github.io/calendar/compiler.ics)
     - [Compiler Team](https://rust-lang.github.io/calendar/compiler.events-only.ics)
     - [Rust Analyzer](https://rust-lang.github.io/calendar/rust-analyzer.ics)

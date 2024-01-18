@@ -1,0 +1,17 @@
+name = "Rust Leadership Council"
+description = "Meetings of the Rust Leadership Council"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "1705586649144"
+title = "Leadership Council Meeting"
+description = "Regular meeting of the Rust leadership council"
+location = "See meeting's thread in https://rust-lang.zulipchat.com/#narrow/stream/392734-council"
+last_modified_on = "2024-01-18T14:04:00.00Z"
+start = { date = "2024-01-19T11:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-19T12:30:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
