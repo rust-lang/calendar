@@ -1,0 +1,18 @@
+name = "Rust Spec Team"
+description = "Meetings for the Rust language specification team."
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "b7af715576cc229aaf8c532ea89bb6ace1c91a65"
+title = "Rust Spec Team Meeting"
+description = """The Rust language specification team weekly meeting."""
+location = "https://meet.jit.si/rust-t-spec"
+last_modified_on = "2024-01-18T00:00:00.00Z"
+start = { date = "2024-01-18T11:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-18T12:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-spec", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
