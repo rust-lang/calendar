@@ -1,0 +1,15 @@
+name = "Stable MIR Project Group"
+description = "Define compiler intermediate representation usable by external tools"
+
+[[events]]
+uid = "1704470683662"
+title = "Stable MIR Weekly Meeting"
+description = "Weekly meeting to discuss, plan and implement Stable MIR"
+location = "#project-stable-mir on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir)"
+last_modified_on = "2024-01-05T16:04:00.00Z"
+start = "2024-01-12T15:00:00.00Z"
+end = "2024-01-12T15:45:00.00Z"
+status = "confirmed"
+organizer = { name = "project-stable-mir", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+

@@ -4,33 +4,11 @@ description = "Meetings for the compiler team and its working groups"
 [meta]
 includes = [
   "compiler.events-only.toml",
+  "project-stable-mir.toml",
   "rust-analyzer.toml",
   "types.toml",
   "wg-async.toml",
+  "wg-debugging.toml",
   "wg-macros.toml",
   "wg-performance.toml"
 ]
-
-[[events]]
-uid = "1704470530167"
-title = "wg-debugging Triage Meeting"
-description = "Triage of outstanding debugging issues"
-location = "#t-compiler/wg-debugging on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/317568-t-compiler.2Fwg-debugging)"
-last_modified_on = "2024-01-05T16:01:00.00Z"
-start = "2024-01-15T15:00:00.00Z"
-end = "2024-01-15T16:00:00.00Z"
-status = "confirmed"
-organizer = { name = "wg-debugging", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "monthly" } ]
-
-[[events]]
-uid = "1704470683662"
-title = "Stable MIR Weekly Meeting"
-description = "Weekly meeting to discuss, plan and implement Stable MIR"
-location = "#project-stable-mir on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir)"
-last_modified_on = "2024-01-05T16:04:00.00Z"
-start = "2024-01-12T15:00:00.00Z"
-end = "2024-01-12T15:45:00.00Z"
-status = "confirmed"
-organizer = { name = "project-stable-mir", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
