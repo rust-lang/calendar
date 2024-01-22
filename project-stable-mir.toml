@@ -6,10 +6,9 @@ uid = "1704470683662"
 title = "Stable MIR Weekly Meeting"
 description = "Weekly meeting to discuss, plan and implement Stable MIR"
 location = "#project-stable-mir on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir)"
-last_modified_on = "2024-01-05T16:04:00.00Z"
-start = "2024-01-12T15:00:00.00Z"
-end = "2024-01-12T15:45:00.00Z"
+last_modified_on = "2024-01-19T08:00:00.00Z"
+start = { date = "2024-01-19T08:00:00.00", timezone = "America/Los_Angeles" }
+end = { date = "2024-01-19T09:00:00.00", timezone = "America/Los_Angeles" }
 status = "confirmed"
 organizer = { name = "project-stable-mir", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
-
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
