@@ -3,10 +3,10 @@ description = "Meetings for the bootstrap team"
 
 [[events]]
 uid = "1705942319405"
-last_modified_on = "2024-01-22T18:00:00Z"
+last_modified_on = "2024-01-22T19:35:00Z"
 title = "Rust Bootstrap Team Meeting"
-start = "2024-02-05T18:00:00Z"
-end = "2024-02-05T19:00:00Z"
+start = { date = "2024-02-05T17:00:00", timezone = "Europe/Paris" }
+end = { date = "2024-02-05T18:00:00", timezone = "Europe/Paris" }
 recurrence_rules = [ { frequency = "monthly", interval = 1, by_day = [ { day = "monday", num = 1 } ] } ]
 organizer = { name = "Rust Bootstrap Team", email = "bootstrap@rust-lang.org" }
 location = "#t-infra on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/326414-t-infra.2Fbootstrap)"
