@@ -32,6 +32,7 @@ current calendars in this repository:
     - [Rustdoc Team](https://rust-lang.github.io/calendar/rustdoc.ics)
     - [Testing DevEx Team](https://rust-lang.github.io/calendar/testing-devex.ics)
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infra.ics)
+  - [Bootstrap Team](https://rust-lang.github.io/calendar/bootstrap.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
     - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
