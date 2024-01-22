@@ -54,3 +54,20 @@ start = "1970-03-29T02:00:00.00"
 from = "+0100"
 to = "+0200"
 rule = { frequency = "yearly", by_month = [3], by_day = [ { day = "sunday", num = -1 } ] }
+
+[[timezones]]
+name = "Europe/Paris"
+
+[timezones.standard]
+name = "CET"
+start = "1970-10-25T03:00:00.00"
+rule = { frequency = "yearly", by_month = [10], by_day = [ { day = "sunday", num = -1 } ] }
+from = "+0200"
+to = "+0100"
+
+[timezones.daylight]
+name = "CEST"
+start = "1970-03-29T02:00:00.00"
+from = "+0100"
+to = "+0200"
+rule = { frequency = "yearly", by_month = [3], by_day = [ { day = "sunday", num = -1 } ] }
