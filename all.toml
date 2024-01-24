@@ -10,5 +10,6 @@ includes = [
   "lang.toml",
   "libs.toml",
   "spec.toml",
+  "wg-binary-size.toml",
   "wg-embedded.toml",
 ]

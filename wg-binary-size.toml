@@ -1,0 +1,21 @@
+name = "Rust Binary Size WG"
+description = "Meetings for the Rust Binary Size Working Group"
+
+[[events]]
+uid = "1706055913163"
+title = "Rust Binary Size WG meeting"
+description = """\
+Public meeting of the binary size working group<br>
+<a href="https://rust-lang.zulipchat.com/#narrow/stream/405744-wg-binary-size/search/meeting">\
+Search for topics with \"meeting\" in the Zulip channel\
+</a><br>
+<a href="https://hackmd.io/BPiMVIcYQ_2svaAsOMktog">wg-binary-size info</a>
+"""
+location = "#wg-binary-size on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/405744-wg-binary-size)"
+last_modified_on = "2024-01-23T0:00:00.00Z"
+# Timezone is UTC
+start = "2023-11-16T21:00:00.00Z"
+end = "2023-11-16T22:00:00.00Z"
+status = "confirmed"
+organizer = { name = "Rust Binary Size WG", email = "infrastructure@teams.rust-embedded.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
