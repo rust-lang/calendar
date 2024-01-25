@@ -36,6 +36,7 @@ current calendars in this repository:
     - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
   - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
+  - [Rust Releases](https://rust-lang.github.io/calendar/release.ics)
 
 You can copy these links and import them into your calendar application of choice.
 
