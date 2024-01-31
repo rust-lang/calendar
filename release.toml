@@ -1,4 +1,4 @@
-name = "Rust Releases Calendar"
+name = "Rust Releases"
 description = "New releases of Rust"
 
 [[events]]
