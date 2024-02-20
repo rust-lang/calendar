@@ -1,0 +1,9 @@
+name = "Cargo Team"
+description = "Meetings for the Cargo team"
+
+[meta]
+includes = [
+    "cargo/office-hours.toml",
+    "cargo/resolver-pubgrub-office-hours.toml",
+    "cargo/team-meeting.toml"
+]
