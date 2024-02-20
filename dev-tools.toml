@@ -3,7 +3,7 @@ description = "Meetings for the dev tools team and its sub-teams"
 
 [meta]
 includes = [
-  "cargo/all.toml",
+  "cargo.toml",
   "clippy.toml",
   "rustdoc.toml",
   "testing-devex.toml",

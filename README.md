@@ -27,7 +27,7 @@ current calendars in this repository:
     - [Macros Working Group](https://rust-lang.github.io/calendar/wg-macros.ics)
     - [Performance Working Group](https://rust-lang.github.io/calendar/wg-performance.ics)
   - [Dev Tools Team](https://rust-lang.github.io/calendar/dev-tools.ics)
-    - [Cargo Team](https://rust-lang.github.io/calendar/cargo/all.ics)
+    - [Cargo Team](https://rust-lang.github.io/calendar/cargo.ics)
       - [Office Hours](https://rust-lang.github.io/calendar/cargo/office-hours.ics)
       - [Resolver and PubGrub Office Hours](https://rust-lang.github.io/calendar/cargo/resolver-pubgrub-office-hours.ics)
       - [Team Meeting](https://rust-lang.github.io/calendar/cargo/team-meeting.ics)
