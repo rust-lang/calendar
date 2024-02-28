@@ -74,3 +74,17 @@ status = "confirmed"
 transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", until = "2024-02-29T00:00:00.00Z" } ]
+
+# One-off events
+
+[[events]]
+uid = "a12447443ed881d1e32615b18cb8b4b8f0ba8039"
+title = "Lang Team RTN Syntax Design Meeting"
+description = "We're meeting to discuss the syntax of RTN."
+location = "https://meet.jit.si/ferris-rules"
+last_modified_on = "2024-02-29T00:00:00.00Z"
+start = { date = "2024-03-04T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-03-04T14:30:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang", email = "lang@rust-lang.org" }
