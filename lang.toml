@@ -4,6 +4,8 @@ description = "Meetings for the language team and its working groups"
 [meta]
 includes = [ "_timezones.toml" ]
 
+# Active recurring events
+
 [[events]]
 uid = "1704818143227"
 title = "Lang Team Triage Meeting (Open)"
@@ -18,29 +20,57 @@ organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
 
 [[events]]
-uid = "1704818922931"
+uid = "9fa5f574898e6a2417d9ac9b20b5294507c15e2a"
 title = "Lang Team Planning Meeting"
-description = """The planning meeting is the first meeting of each month. We do a “check-in” on \
-the state of our various ongoing projects and we also plan the meetings for the remainder of the \
-month"""
+description = "In this meeting, we plan the design meetings for the month."
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-01-11T10:00:00.00Z"
-start = { date = "2024-01-03T13:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-01-03T14:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2024-02-29T00:00:00.00Z"
+start = { date = "2024-03-06T12:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-03-06T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
 recurrence_rules = [ { frequency = "monthly" } ]
 
 [[events]]
+uid = "2be23d34f40821a2793cf8bf2db5b1bcbfe620f3"
+title = "Lang Team Design Meeting"
+description = "https://github.com/orgs/rust-lang/projects/31/views/10"
+location = "https://meet.jit.si/ferris-rules"
+last_modified_on = "2024-02-29T00:00:00.00Z"
+start = { date = "2024-03-06T12:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-03-06T14:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+# Past recurring events
+
+[[events]]
+uid = "1704818922931"
+title = "Lang Team Planning Meeting"
+description = """The planning meeting is the first meeting of each month. We do a “check-in” on \
+the state of our various ongoing projects and we also plan the meetings for the remainder of the \
+month"""
+location = "https://meet.jit.si/ferris-rules"
+last_modified_on = "2024-02-29T00:00:00.00Z"
+start = { date = "2024-01-03T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-03T14:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly", until = "2024-02-29T00:00:00.00Z" } ]
+
+[[events]]
 uid = "1704819113100"
 title = "HOLD: Lang Team Design Meeting"
 description = "https://github.com/orgs/rust-lang/projects/31/views/10"
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-01-11T10:00:00.00Z"
+last_modified_on = "2024-02-29T00:00:00.00Z"
 start = { date = "2024-01-10T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-10T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "t-lang", email = "lang@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
+recurrence_rules = [ { frequency = "weekly", until = "2024-02-29T00:00:00.00Z" } ]
