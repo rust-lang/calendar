@@ -1,14 +1,17 @@
 name = "Rust Types Team"
 description = "Meetings for the types team and its working groups"
 
+[meta]
+includes = [ "_timezones.toml" ]
+
 [[events]]
 uid = "1704470313292"
 title = "Types Team Meeting"
 description = "Weekly team meeting of the types team"
 location = "#t-types/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/326132-t-types.2Fmeetings)"
-last_modified_on = "2024-01-05T15:49:00.00Z"
-start = "2024-01-08T15:00:00.00Z"
-end = "2024-01-08T16:00:00.00Z"
+last_modified_on = "2024-03-14T15:46:00.00Z"
+start = { date = "2024-01-08T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-08T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
@@ -18,9 +21,9 @@ uid = "1704471680390"
 title = "Types Team: ITE (Impl Trait Everywhere) Triage"
 description = "Regular triage of the implementation of impl Trait-related features"
 location = "Jitsi (https://meet.jit.si/impl-trait-everywhere)"
-last_modified_on = "2024-01-08T15:35:00.00Z"
-start = "2024-01-11T21:00:00.00Z"
-end = "2024-01-11T21:30:00.00Z"
+last_modified_on = "2024-03-14T15:46:00.00Z"
+start = { date = "2024-01-11T16:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-11T16:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
