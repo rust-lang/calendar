@@ -1,14 +1,17 @@
 name = "Rust Compiler Team"
 description = "Meetings for the compiler team"
 
+[meta]
+includes = [ "_timezones.toml" ]
+
 [[events]]
 uid = "1704469565198"
 title = "Compiler Team Triage Meeting"
 description = "Weekly team meeting to discuss backports and nominated issues"
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2024-01-05T15:46:00.00Z"
-start = "2024-01-11T15:00:00.00Z"
-end = "2024-01-11T16:00:00.00Z"
+last_modified_on = "2024-03-14T15:46:00.00Z"
+start = { date = "2024-01-11T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-11T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
