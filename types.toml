@@ -24,15 +24,3 @@ end = "2024-01-11T21:30:00.00Z"
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
-
-[[events]]
-uid = "1704471804390"
-title = "Types Team: Rotating Solver/Formality/Polonius Deep Dive"
-description = "Rotating deep dive into a types team project (https://hackmd.io/jjc-a_V4RWOYFTVpVeVsCA)"
-location = "Jitsi (https://meet.jit.si/p-equals-np)"
-last_modified_on = "2024-01-05T16:24:00.00Z"
-start = "2024-01-08T16:00:00.00Z"
-end = "2024-01-08T17:30:00.00Z"
-status = "confirmed"
-organizer = { name = "t-types", email = "types@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
