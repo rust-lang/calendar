@@ -21,9 +21,9 @@ uid = "1705072206827"
 title = "steering: P-high Issue Review"
 description = "Continue going over our P-high tagged issues"
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2024-01-12T15:46:00.00Z"
-start = "2024-01-19T15:00:00.00Z"
-end = "2024-01-19T16:00:00.00Z"
+last_modified_on = "2024-03-14T15:46:00.00Z"
+start = { date = "2024-01-19T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-19T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -32,8 +32,8 @@ uid = "1705072461969"
 title = "steering: Tracking Issue Review"
 description = "Continue going over our tracking issues to update status"
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2024-01-12T15:46:00.00Z"
-start = "2024-01-26T15:00:00.00Z"
-end = "2024-01-26T16:00:00.00Z"
+last_modified_on = "2024-03-14T15:46:00.00Z"
+start = { date = "2024-01-26T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-26T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
