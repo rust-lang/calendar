@@ -1,28 +1,67 @@
 name = "Rust Async Working Group Team"
 description = "Meetings for the async working group"
 
+# Active recurring events
+
 [[events]]
-uid = "1704471961833"
-title = "wg-async Weekly Meeting"
-description = "First Thursday of each month is sprint planning. On other weeks we do deep dives, reading clubs, and open discussion."
-location = "#wg-async on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/187312-wg-async)"
-last_modified_on = "2024-01-11T10:00:00.00Z"
-start = "2024-01-11T17:00:00.00Z"
-end = "2024-01-11T18:00:00.00Z"
+uid = "1626e53f9596461fcb0ec39d032178cd0afe5943"
+title = "WG-async Design Meeting"
+description = """This is a design meeting of the Rust async working \
+group.  Our scheduled design meetings can be found here: \
+https://github.com/orgs/rust-lang/projects/40"""
+location = "https://meet.google.com/tuz-bjjo-vdv"
+last_modified_on = "2024-04-10T00:00:00.00Z"
+start = { date = "2024-04-03T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-04-03T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
 
 [[events]]
+uid = "60e5fda275e55710237fed8515570c1ba051a521"
+title = "WG-async Planning Meeting"
+description = """This is a planning meeting of the Rust async working \
+group.  In this meeting, we schedule design meetings for the month, \
+and those meetings can be found here: \
+https://github.com/orgs/rust-lang/projects/40"""
+location = "https://meet.google.com/tuz-bjjo-vdv"
+last_modified_on = "2024-04-10T00:00:00.00Z"
+start = { date = "2024-04-03T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-04-03T14:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly" } ]
+
+[[events]]
 uid = "1704472122081"
-title = "wg-async Triage Meeting"
-description = "A biweekly sync to do triage, check up on issues that are assigned, assign new issues."
-location = "#wg-async on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/187312-wg-async)"
-last_modified_on = "2024-01-22T22:54:00.00Z"
-start = "2024-01-15T16:30:00.00Z"
-end = "2024-01-15T17:30:00.00Z"
+title = "WG-async Triage Meeting"
+description = """This is a triage meeting of the Rust async working group."""
+location = "https://meet.google.com/tuz-bjjo-vdv"
+last_modified_on = "2024-04-10T00:00:00.00Z"
+start = { date = "2024-01-15T11:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-01-15T12:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
+
+# Past recurring events
+
+[[events]]
+uid = "1704471961833"
+title = "WG-async Design/Planning Meeting"
+description = """This is a planning or design meeting of the Rust \
+async working group.  The first meeting of the month is for \
+planning and each remaining meeting is a design meeting.  The \
+schedule of design meetings can be found here: \
+https://github.com/orgs/rust-lang/projects/40"""
+location = "https://meet.google.com/tuz-bjjo-vdv"
+last_modified_on = "2024-04-10T00:00:00.00Z"
+start = "2024-01-11T17:00:00.00Z"
+end = "2024-01-11T18:00:00.00Z"
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", until = "2024-03-31T00:00:00.00Z" } ]
