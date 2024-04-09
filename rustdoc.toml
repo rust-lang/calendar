@@ -6,9 +6,9 @@ uid = "1704823643569"
 title = "Rustdoc meeting"
 description = "Monthly team meeting of the Rustdoc team"
 location = "#t-rustdoc/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/t-rustdoc.2Fmeetings)"
-last_modified_on = "2024-01-09T18:15:00.00Z"
-start = "2024-02-12T20:00:00.00Z"
-end = "2024-02-12T21:00:00.00Z"
+last_modified_on = "2024-04-09T04:15:00.00Z"
+start = { date = "2024-05-13T21:00:00.00", timezone = "Europe/Paris" }
+end = { date = "2024-05-13T22:00:00.00", timezone = "Europe/Paris" }
 status = "confirmed"
 organizer = { name = "rustdoc", email = "rustdoc@rust-lang.org" }
 recurrence_rules = [ { frequency = "monthly", by_day = [ { day = "monday", num = 2 } ] } ]
