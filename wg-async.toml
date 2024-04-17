@@ -10,9 +10,9 @@ description = """This is a design meeting of the Rust async working \
 group.  Our scheduled design meetings can be found here: \
 https://github.com/orgs/rust-lang/projects/40"""
 location = "https://meet.google.com/tuz-bjjo-vdv"
-last_modified_on = "2024-04-10T00:00:00.00Z"
-start = { date = "2024-04-03T13:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-04-03T14:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2024-04-18T00:00:00.00Z"
+start = { date = "2024-04-04T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-04-04T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
@@ -26,9 +26,9 @@ group.  In this meeting, we schedule design meetings for the month, \
 and those meetings can be found here: \
 https://github.com/orgs/rust-lang/projects/40"""
 location = "https://meet.google.com/tuz-bjjo-vdv"
-last_modified_on = "2024-04-10T00:00:00.00Z"
-start = { date = "2024-04-03T13:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-04-03T14:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2024-04-18T00:00:00.00Z"
+start = { date = "2024-04-04T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-04-04T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
