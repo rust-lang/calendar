@@ -27,3 +27,15 @@ end = { date = "2024-01-11T16:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "5183091736401"
+title = "Types Team High Bandwidth Discussions"
+description = "Regular meeting discussing items from the Types Team roadmap"
+location = "Jitsi (https://meet.jit.si/curry-howard-ftw)"
+last_modified_on = "2024-04-24T10:39:00.00Z"
+start = { date = "2024-04-30T10:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-04-30T12:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-types", email = "types@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
