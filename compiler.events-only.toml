@@ -42,7 +42,7 @@ organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 uid = "1716514360043"
 title = "steering: Planning Meeting"
 description = "Plan upcoming design meetings"
-locaiton = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
 last_modified_on = "2024-05-23T20:00:00.00Z"
 start = { date = "2024-05-24T10:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-05-24T11:00:00.00", timezone = "America/New_York" }
