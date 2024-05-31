@@ -1,26 +1,17 @@
 name = "Rust Macros Working Group"
 description = "Meetings for the macros working group"
 
+[meta]
+includes = [ "_timezones.toml" ]
+
 [[events]]
 uid = "1704471175975"
 title = "wg-macros Sync Meeting"
 description = "Biweekly sync meeting of the macros working group"
 location = "#wg-macros on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/404510-wg-macros)"
-last_modified_on = "2024-01-05T16:06:00.00Z"
-start = "2024-01-05T16:00:00.00Z"
-end = "2024-01-05T17:00:00.00Z"
-status = "confirmed"
-organizer = { name = "wg-macros", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
-
-[[events]]
-uid = "1704471162252"
-title = "wg-macros Triage Meeting"
-description = "Biweekly triage meeting of the macros working group"
-location = "#wg-macros/triage on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/410876-wg-macros.2Ftriage)"
-last_modified_on = "2024-01-05T16:08:00.00Z"
-start = "2024-01-12T16:00:00.00Z"
-end = "2024-01-12T17:00:00.00Z"
+last_modified_on = "2024-01-05T11:13:00.00Z"
+start = { date = "2024-01-09T17:00:00.00", timezone = "Europe/Paris" }
+end = { date = "2024-01-09T18:00:00.00", timezone = "Europe/Paris" }
 status = "confirmed"
 organizer = { name = "wg-macros", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
