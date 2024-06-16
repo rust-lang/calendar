@@ -49,3 +49,14 @@ end = { date = "2024-05-24T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
+
+[[events]]
+uid = "1718527956384"
+title = "steering: Backlog Bonanza"
+description = "Compiler feature backlog bonanza"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-06-16T20:00:00.00Z"
+start = "2024-06-21T10:00:00.00Z"
+end = "2024-05-24T11:00:00.00Z"
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
