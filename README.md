@@ -137,3 +137,10 @@ repository for a complete list of all supported configuration options.
 [subscribe]: https://github.com/rust-lang/calendar/tree/main#how-do-i-subscribe-to-these-calendars
 [update]: https://github.com/rust-lang/calendar/tree/main#how-do-i-update-an-event
 
+## Testing and validating calendar files
+
+To test that your calendar changes work, you can install the calendar generation tool and generate the `all.ics` calendar (which should include every other calendar, but you can run it on a specific file too).
+```shell-session
+$ cargo install --git https://github.com/rust-lang/calendar-generation.git
+$ toml-to-ical -i all.toml -o /dev/null
+```
