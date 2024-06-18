@@ -67,8 +67,8 @@ uid = "1704819113100"
 title = "HOLD: Lang Team Design Meeting"
 description = "https://github.com/orgs/rust-lang/projects/31/views/10"
 location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2024-02-29T00:00:00.00Z"
-start = { date = "2024-01-10T13:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2024-06-18T00:00:00.00Z"
+start = { date = "2024-01-10T12:30:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-10T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
