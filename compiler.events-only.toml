@@ -49,3 +49,15 @@ end = { date = "2024-05-24T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
+
+[[events]]
+uid = "1727268825442"
+title = "Co-Lead Office Hours: davidtwco"
+description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
+location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
+last_modified_on = "2024-09-25T12:52:46.00Z"
+start = { date = "2024-09-27T16:00:00.00", timezone = "Europe/London" }
+end = { date = "2024-09-27T17:00:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "davidtwco", email = "david@davidtw.co" }
+recurrence_rules = [ { frequency = "weekly" } ]
