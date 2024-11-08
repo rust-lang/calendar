@@ -21,9 +21,9 @@ uid = "1705072206827"
 title = "steering: P-high Issue Review"
 description = "Continue going over our P-high tagged issues"
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2024-03-14T15:46:00.00Z"
-start = { date = "2024-01-19T10:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-01-19T11:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2024-11-13T12:00:00.00Z"
+start = { date = "2024-11-15T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-11-15T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -32,7 +32,7 @@ uid = "1705072461969"
 title = "steering: Tracking Issue Review"
 description = "Continue going over our tracking issues to update status"
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2024-03-14T15:46:00.00Z"
+last_modified_on = "2024-11-13T12:00:00.00Z"
 start = { date = "2024-01-26T10:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-26T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
@@ -61,3 +61,36 @@ end = { date = "2024-09-27T17:00:00.00", timezone = "Europe/London" }
 status = "confirmed"
 organizer = { name = "davidtwco", email = "david@davidtw.co" }
 recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "91bb5251e3655bd133c3373745c99e9b52f3a6d2"
+title = "steering: P-high Issue Review"
+description = "Continue going over our P-high tagged issues"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-11-13T12:00:00.00Z"
+start = { date = "2024-11-22T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-11-22T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
+uid = "1be2cb06ce59bb153f8da9fd080ae91bbc83a42b"
+title = "design: type_id is not sufficiently collision-resistant"
+description = "type_id is not sufficiently collision-resistant"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-11-13T12:00:00.00Z"
+start = { date = "2024-12-06T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-12-06T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
+uid = "768e726d133aae6adaa89602230ff2bdc25c4c43"
+title = "design: LLVM optional target-cpu features enabled by default"
+description = "LLVM optional target-cpu features enabled by default"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-11-13T12:00:00.00Z"
+start = { date = "2024-12-13T11:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-12-13T12:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
