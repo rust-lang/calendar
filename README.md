@@ -103,7 +103,9 @@ See [*What is the schema for the calendars?*][schema] for a list of options you 
 
 ## How do I update an event?
 Modify whatever details you like - except `uid`, which **should never be changed** - and make sure
-to update `last_modified_on`.
+to update `last_modified_on`. Some clients use `last_modified_on` to decide whether to publish an
+update to an event or recurrence or not. To ensure the client will publish the event, set
+`last_modified_on` to a value in the future (a few days past the current date should be enough).
 
 On Linux, you can get the current time in the right format in UTC with the command
 `TZ=UTC date -u +"%Y-%m-%dT%H:%M:%S.%2NZ"`.
