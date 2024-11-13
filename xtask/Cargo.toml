@@ -1,0 +1,9 @@
+[package]
+name = "calendar-xtask"
+version = "0.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[dependencies]
+getrandom = { version = "0.2.15", default-features = false }

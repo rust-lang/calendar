@@ -107,8 +107,15 @@ to update `last_modified_on`. Some clients use `last_modified_on` to decide whet
 update to an event or recurrence or not. To ensure the client will publish the event, set
 `last_modified_on` to a value in the future (a few days past the current date should be enough).
 
-On Linux, you can get the current time in the right format in UTC with the command
-`TZ=UTC date -u +"%Y-%m-%dT%H:%M:%S.%2NZ"`.
+## How do I generate a UID for a new event?
+
+To generate a UID, run:
+
+```sh
+cargo xtask generate-uid
+```
+
+Use the printed value as the `uid` for the event.
 
 ## How do I remove an event?
 If the event isn't recurring, then you don't need to remove it, it'll just stay in the calendar
@@ -146,3 +153,12 @@ To test that your calendar changes work, you can install the calendar generation
 $ cargo install --git https://github.com/rust-lang/calendar-generation.git
 $ toml-to-ical -i all.toml -o /dev/null
 ```
+
+#### License
+
+Licensed under either of <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License,
+Version 2.0</a> or <a href="https://opensource.org/licenses/MIT">MIT license</a> at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in
+this crate by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without
+any additional terms or conditions.
