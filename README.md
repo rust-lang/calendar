@@ -107,8 +107,15 @@ to update `last_modified_on`. Some clients use `last_modified_on` to decide whet
 update to an event or recurrence or not. To ensure the client will publish the event, set
 `last_modified_on` to a value in the future (a few days past the current date should be enough).
 
-On Linux, you can get the current time in the right format in UTC with the command
-`TZ=UTC date -u +"%Y-%m-%dT%H:%M:%S.%2NZ"`.
+## How do I generate a UID for a new event?
+
+To generate a UID, run:
+
+```sh
+cargo xtask generate-uid
+```
+
+Use the printed value as the `uid` for the event.
 
 ## How do I remove an event?
 If the event isn't recurring, then you don't need to remove it, it'll just stay in the calendar
