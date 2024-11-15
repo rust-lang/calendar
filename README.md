@@ -146,3 +146,12 @@ To test that your calendar changes work, you can install the calendar generation
 $ cargo install --git https://github.com/rust-lang/calendar-generation.git
 $ toml-to-ical -i all.toml -o /dev/null
 ```
+
+#### License
+
+Licensed under either of <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License,
+Version 2.0</a> or <a href="https://opensource.org/licenses/MIT">MIT license</a> at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in
+this crate by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without
+any additional terms or conditions.
