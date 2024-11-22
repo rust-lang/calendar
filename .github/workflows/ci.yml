@@ -1,0 +1,29 @@
+on: [push, pull_request]
+
+name: check tools
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: dtolnay/rust-toolchain@stable
+      - run: (cd xtask && cargo check --all-features)
+      - run: (cd xtask && cargo test --release --all-features)
+      # We intentionally do not suppress the output here so that the
+      # help output appears once in the CI logs.
+      - run: cargo xtask -h
+      - run: cargo xtask generate-uid -h >/dev/null
+      - run: test 40 -eq $(cargo xtask generate-uid -n | wc -c)
+      - run: test 41 -eq $(cargo xtask generate-uid | wc -c)
+
+  fmt:
+    name: rustfmt
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - run: (cd xtask && cargo fmt --all -- --check)
