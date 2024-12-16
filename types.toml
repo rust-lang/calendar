@@ -33,9 +33,21 @@ uid = "5183091736401"
 title = "Types Team High Bandwidth Discussions"
 description = "Regular meeting discussing items from the Types Team roadmap"
 location = "Jitsi (https://meet.jit.si/curry-howard-ftw)"
-last_modified_on = "2024-11-30T10:39:00.00Z"
+last_modified_on = "2024-12-17T10:00:00.00Z"
 start = { date = "2024-04-30T10:30:00.00", timezone = "America/New_York" }
 end = { date = "2024-04-30T12:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-types", email = "types@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", until = "2024-11-13T00:00:00.00Z" } ]
+
+[[events]]
+uid = "09038f9ca2b7d003a12249d8d20a8b5971d4bf71"
+title = "Types Team Office Hours"
+description = "Weekly team office hours"
+location = "Jitsi (https://meet.jit.si/curry-howard-ftw)"
+last_modified_on = "2024-12-17T10:00:00.00Z"
+start = { date = "2024-12-17T10:30:00.00", timezone = "America/New_York" }
+end = { date = "2024-12-17T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
