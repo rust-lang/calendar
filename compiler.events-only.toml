@@ -94,3 +94,14 @@ start = { date = "2024-12-13T11:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-12-13T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
+uid = "cf0de61d46e0e4f95d78775ffab3c0a14d23a1dd"
+title = "steering: Rust Project Goal Review"
+description = "Review the set of proposed project goals. Assess whether any changes are needed before the RFC is officially opened."
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2024-12-17T12:00:00.00Z"
+start = { date = "2024-12-20T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2024-12-20T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
