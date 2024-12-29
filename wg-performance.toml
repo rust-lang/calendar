@@ -6,7 +6,7 @@ uid = "1704470086455"
 title = "Performance Triage Deadline"
 description = "Approximate time when performance triage should happen by"
 location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-23T15:56:00.00Z"
+last_modified_on = "2024-12-29T15:56:00.00Z"
 start = "2024-01-09T16:00:00.00Z"
 end = "2024-01-09T17:00:00.00Z"
 status = "confirmed"
@@ -22,11 +22,11 @@ description = """simulacrum's turn to do performance triage
 2. Do the triage (see https://github.com/rust-lang/rustc-perf/tree/master/triage#readme)
 3. Post PRs to rust-lang/rustc-perf and rust-lang/this-week-in-rust"""
 location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-08T16:36:00.00Z"
+last_modified_on = "2024-12-29T16:36:00.00Z"
 start = "2024-01-08"
 status = "confirmed"
 organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 4 } ]
+recurrence_rules = [ { frequency = "weekly", interval = 3 } ]
 
 [[events]]
 uid = "1704733471492"
@@ -37,11 +37,11 @@ description = """pnkfelix's turn to do performance triage
 2. Do the triage (see https://github.com/rust-lang/rustc-perf/tree/master/triage#readme)
 3. Post PRs to rust-lang/rustc-perf and rust-lang/this-week-in-rust"""
 location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-08T17:04:00.00Z"
+last_modified_on = "2024-12-29T17:04:00.00Z"
 start = "2024-01-15"
 status = "confirmed"
 organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 4 } ]
+recurrence_rules = [ { frequency = "weekly", interval = 4, until = "2024-12-30T00:00:00.00Z" } ]
 
 [[events]]
 uid = "1704796350522"
@@ -52,11 +52,11 @@ description = """kobzol's turn to do performance triage
 2. Do the triage (see https://github.com/rust-lang/rustc-perf/tree/master/triage#readme)
 3. Post PRs to rust-lang/rustc-perf and rust-lang/this-week-in-rust"""
 location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-09T10:32:00.00Z"
-start = "2024-01-22"
+last_modified_on = "2024-12-29T10:32:00.00Z"
+start = "2024-01-15"
 status = "confirmed"
 organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 4 } ]
+recurrence_rules = [ { frequency = "weekly", interval = 3 } ]
 
 [[events]]
 uid = "1704733549327"
@@ -67,8 +67,8 @@ description = """rylev's turn to do performance triage
 2. Do the triage (see https://github.com/rust-lang/rustc-perf/tree/master/triage#readme)
 3. Post PRs to rust-lang/rustc-perf and rust-lang/this-week-in-rust"""
 location = "#t-compiler/performance on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance)"
-last_modified_on = "2024-01-08T17:05:00.00Z"
-start = "2024-01-29"
+last_modified_on = "2024-12-29T17:05:00.00Z"
+start = "2024-01-22"
 status = "confirmed"
 organizer = { name = "wg-performance", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 4 } ]
+recurrence_rules = [ { frequency = "weekly", interval = 3 } ]
