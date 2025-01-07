@@ -14,3 +14,14 @@ start = { date = "2024-01-08T16:00:00.00", timezone = "Europe/Amsterdam" }
 end = { date = "2024-01-08T16:30:00.00", timezone = "Europe/Amsterdam" }
 organizer = { name = "t-infra", email = "infra@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "1736255557911"
+title = "rustc-perf improvements goal sync"
+description = "Bi-weekly sync meeting with stakeholders of rustc-perf improvements goal in 2025H1"
+location = "Zoom, ask davidtwco for link"
+last_modified_on = "2025-01-07T13:13:13.13Z"
+start = { date = "2025-01-15T09:15:00.00", timezone = "Europe/London" }
+end = { date = "2025-01-15T09:45:00.00", timezone = "Europe/London" }
+organizer = { name = "davidtwco", email = "david.wood2@arm.com" }
+recurrence_rules = [ { frequency = "weekly", interval = 2, count = 13 } ]
