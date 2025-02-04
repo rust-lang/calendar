@@ -20,8 +20,8 @@ recurrence_rules = [ { frequency = "weekly", until = "2024-11-13T00:00:00.00Z" }
 uid = "1704471680390"
 title = "Types Team: ITE (Impl Trait Everywhere) Triage"
 description = "Regular triage of the implementation of impl Trait-related features"
-location = "Jitsi (https://meet.jit.si/impl-trait-everywhere)"
-last_modified_on = "2024-12-17T10:00:00.00Z"
+location = "https://meet.jit.si/impl-trait-everywhere"
+last_modified_on = "2025-02-07T10:00:00.00Z"
 start = { date = "2024-01-11T16:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-11T16:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
@@ -32,8 +32,8 @@ recurrence_rules = [ { frequency = "weekly", until = "2024-11-13T00:00:00.00Z" }
 uid = "5183091736401"
 title = "Types Team High Bandwidth Discussions"
 description = "Regular meeting discussing items from the Types Team roadmap"
-location = "Jitsi (https://meet.jit.si/curry-howard-ftw)"
-last_modified_on = "2024-12-17T10:00:00.00Z"
+location = "https://meet.jit.si/curry-howard-ftw"
+last_modified_on = "2025-02-07T10:00:00.00Z"
 start = { date = "2024-04-30T10:30:00.00", timezone = "America/New_York" }
 end = { date = "2024-04-30T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
@@ -44,8 +44,8 @@ recurrence_rules = [ { frequency = "weekly", until = "2024-11-13T00:00:00.00Z" }
 uid = "09038f9ca2b7d003a12249d8d20a8b5971d4bf71"
 title = "Types Team Office Hours"
 description = "Weekly team office hours"
-location = "Jitsi (https://meet.jit.si/curry-howard-ftw)"
-last_modified_on = "2024-12-20T10:00:00.00Z"
+location = "https://meet.jit.si/curry-howard-ftw"
+last_modified_on = "2025-02-07T10:00:00.00Z"
 start = { date = "2025-01-07T10:30:00.00", timezone = "America/New_York" }
 end = { date = "2025-01-07T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
