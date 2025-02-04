@@ -46,8 +46,8 @@ title = "Types Team Office Hours"
 description = "Weekly team office hours"
 location = "https://meet.jit.si/curry-howard-ftw"
 last_modified_on = "2025-02-07T10:00:00.00Z"
-start = { date = "2025-01-07T10:30:00.00", timezone = "America/New_York" }
-end = { date = "2025-01-07T12:00:00.00", timezone = "America/New_York" }
+start = { date = "2025-02-04T10:30:00.00", timezone = "America/New_York" }
+end = { date = "2025-02-04T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
+recurrence_rules = [ { frequency = "monthly", by_day = [ { day = "tuesday", num = 1 }, { day = "tuesday", num = 3 } ] } ]
