@@ -13,4 +13,5 @@ includes = [
   "spec.toml",
   "wg-binary-size.toml",
   "wg-embedded.toml",
+  "release-team.toml",
 ]
