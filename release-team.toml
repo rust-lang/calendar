@@ -1,0 +1,14 @@
+name = "Rust Release Team"
+description = "Release team activities"
+
+[[events]]
+uid = "f788e32dd599c6c8f9cbf8ab0b323270676f82dd"
+title = "Release Team Meeting"
+last_modified_on = "2025-02-10T00:00:00.00Z"
+organizer = { name = "t-release", email = "release@rust-lang.org" }
+description = "Weekly team meeting"
+location = "#t-release on Zulip (https://rust-lang.zulipchat.com/#narrow/channel/241545-t-release)"
+start = { date = "2025-01-31T12:30:00.00", timezone = "America/New_York" }
+end = { date = "2025-01-31T13:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+recurrence_rules = [ { frequency = "weekly" } ]
