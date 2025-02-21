@@ -51,6 +51,17 @@ organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
 
 [[events]]
+uid = "d9364c3f8a2d7bbf1bbef8ceccfb87fff83ab3d1"
+title = "steering: Planning Meeting"
+description = "Plan upcoming design meetings"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2025-02-23T12:00:00.00Z"
+start = { date = "2025-02-28T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-02-28T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
 uid = "1727268825442"
 title = "Co-Lead Office Hours: davidtwco"
 description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
