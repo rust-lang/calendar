@@ -66,12 +66,36 @@ uid = "1727268825442"
 title = "Co-Lead Office Hours: davidtwco"
 description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
 location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
-last_modified_on = "2024-09-25T12:52:46.00Z"
+last_modified_on = "2025-02-24T15:59:00.00Z"
 start = { date = "2024-09-27T16:00:00.00", timezone = "Europe/London" }
 end = { date = "2024-09-27T17:00:00.00", timezone = "Europe/London" }
 status = "confirmed"
 organizer = { name = "davidtwco", email = "david@davidtw.co" }
-recurrence_rules = [ { frequency = "weekly" } ]
+recurrence_rules = [ { frequency = "weekly", count = 21 } ]
+
+[[events]]
+uid = "ecf6d6fa9cdf640f52922fef349da287edd6c008"
+title = "Co-Lead Office Hours: davidtwco (slot 1)"
+description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
+location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
+last_modified_on = "2025-02-24T15:59:00.00Z"
+start = { date = "2025-02-27T13:30:00.00", timezone = "Europe/London" }
+end = { date = "2025-02-27T14:30:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "davidtwco", email = "david@davidtw.co" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
+
+[[events]]
+uid = "f6e9e3ff9c16a3f0f4ddeeb889ab5da591c9595b"
+title = "Co-Lead Office Hours: davidtwco (slot 2)"
+description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
+location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
+last_modified_on = "2025-02-24T15:59:00.00Z"
+start = { date = "2025-03-03T15:00:00.00", timezone = "Europe/London" }
+end = { date = "2025-03-03T15:00:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "davidtwco", email = "david@davidtw.co" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
 
 [[events]]
 uid = "91bb5251e3655bd133c3373745c99e9b52f3a6d2"
