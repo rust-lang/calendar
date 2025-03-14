@@ -13,7 +13,7 @@ recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
 [[events]]
 uid = "42985c1ccc9931952a2eecb21f96ec06ecea5492"
 title = "Release Team Meeting"
-last_modified_on = "2025-02-10T00:00:00.00Z"
+last_modified_on = "2025-03-17T00:00:00.00Z"
 organizer = { name = "t-release", email = "release@rust-lang.org" }
 description = "Weekly team meeting"
 location = "#t-release on Zulip (https://rust-lang.zulipchat.com/#narrow/channel/241545-t-release)"
