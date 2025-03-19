@@ -146,9 +146,9 @@ uid = "bae48b3cb71699ca94e06d028a53442817f27544"
 title = "design: Compiler feature backlog Bonanza"
 description = "Review the backlog of unimplemented or partially implemented compiler features."
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2025-03-03T12:00:00.00Z"
-start = { date = "2024-03-07T10:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-03-07T11:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-03-21T12:00:00.00Z"
+start = { date = "2025-03-07T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-03-07T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -157,9 +157,9 @@ uid = "be6c415e6ef2209c41c63f6b9967d9573b52c5dc"
 title = "design: feature target for Intel avx512"
 description = "Design the best strategy for naming the feature target."
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2025-03-03T12:00:00.00Z"
-start = { date = "2024-03-14T09:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-03-14T10:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-03-21T12:00:00.00Z"
+start = { date = "2025-03-14T09:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-03-14T10:00:00.00", timezone = "America/New_York" }
 status = "tentative"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -168,9 +168,9 @@ uid = "a74c769ca0a461612b1a9b1de9d738fa9810c035"
 title = "meta: Cleanup compiler-team proposals"
 description = "We have a long list of issues and proposals, close those that are clearly forgotten/obsolete/else."
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2025-03-03T12:00:00.00Z"
-start = { date = "2024-03-28T09:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-03-28T10:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-03-21T12:00:00.00Z"
+start = { date = "2025-03-28T09:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-03-28T10:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -179,9 +179,9 @@ uid = "468aa73de412ff0b503f186c75b5ce3a3b087f1f"
 title = "design: Parallel compilation support strategy"
 description = "Rust's parallel compilation support is very much experimental. Past Investigations indicate that CI is only running atop one core."
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2025-03-03T12:00:00.00Z"
-start = { date = "2024-04-04T09:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-04-04T10:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-03-21T12:00:00.00Z"
+start = { date = "2025-04-04T09:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-04-04T10:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
@@ -190,8 +190,8 @@ uid = "0609ba205378dc6f0ffaf3a7e14d10ef2c36b314"
 title = "design: Dealing with disabled tests"
 description = "Components out of our control sometimes cause CI tests to fail. We should design a structures/protocols to handle this better."
 location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
-last_modified_on = "2025-03-03T12:00:00.00Z"
-start = { date = "2024-04-11T09:00:00.00", timezone = "America/New_York" }
-end = { date = "2024-04-11T10:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-03-21T12:00:00.00Z"
+start = { date = "2025-04-11T09:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-04-11T10:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
