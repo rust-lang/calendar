@@ -42,12 +42,24 @@ recurrence_rules = [ { frequency = "weekly", until = "2024-11-13T00:00:00.00Z" }
 
 [[events]]
 uid = "09038f9ca2b7d003a12249d8d20a8b5971d4bf71"
-title = "Types Team Office Hours"
-description = "Weekly team office hours"
+title = "Types Team Office Hours (Video call)"
+description = "Weekly team office hours (video call)"
 location = "https://meet.jit.si/curry-howard-ftw"
-last_modified_on = "2025-02-07T10:00:00.00Z"
-start = { date = "2025-02-04T10:30:00.00", timezone = "America/New_York" }
-end = { date = "2025-02-04T12:00:00.00", timezone = "America/New_York" }
+last_modified_on = "2025-05-26T10:00:00.00Z"
+start = { date = "2025-06-03T10:30:00.00", timezone = "America/New_York" }
+end = { date = "2025-06-03T12:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-types", email = "types@rust-lang.org" }
-recurrence_rules = [ { frequency = "monthly", by_day = [ { day = "tuesday", num = 1 }, { day = "tuesday", num = 3 } ] } ]
+recurrence_rules = [ { frequency = "monthly", by_day = [ { day = "tuesday", num = 1 } ] } ]
+
+[[events]]
+uid = "1de33be55f71f9eebc5ef0d8ea7132c1e3561cb9"
+title = "Types Team Office Hours (Zulip chat)"
+description = "Weekly team office hours (zulip chat)"
+location = "https://rust-lang.zulipchat.com/#narrow/channel/326132-t-types.2Fmeetings"
+last_modified_on = "2025-05-26T10:00:00.00Z"
+start = { date = "2025-05-27T10:30:00.00", timezone = "America/New_York" }
+end = { date = "2025-05-27T12:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-types", email = "types@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly", by_day = [ { day = "tuesday", num = 2 }, { day = "tuesday", num = 3 }, { day = "tuesday", num = 4 }, { day = "tuesday", num = 5 } ] } ]
