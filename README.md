@@ -37,6 +37,7 @@ current calendars in this repository:
   - [Infrastructure Team](https://rust-lang.github.io/calendar/infra.ics)
   - [Bootstrap Team](https://rust-lang.github.io/calendar/bootstrap.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
+    - [Rust for Linux Team](https://rust-lang.github.io/calendar/rust-for-linux.ics)
     - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
   - Working Groups

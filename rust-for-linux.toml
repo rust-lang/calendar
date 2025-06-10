@@ -1,0 +1,17 @@
+name = "Rust for Linux"
+description = "Meetings for the Rust for Linux team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "585a0c657d98099e0753b36b3c39891dca94dc6d"
+title = "Rust for Linux meeting"
+description = """The Rust for Linux team fortnightly meeting."""
+last_modified_on = "2025-06-10T11:24:33.00Z"
+start = { date = "2025-06-18T14:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-06-18T15:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
