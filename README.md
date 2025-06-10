@@ -38,6 +38,7 @@ current calendars in this repository:
   - [Bootstrap Team](https://rust-lang.github.io/calendar/bootstrap.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
     - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
+    - [Vision Team](https://rust-lang.github.io/calendar/vision.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
   - Working Groups
     - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
