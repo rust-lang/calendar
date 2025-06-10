@@ -1,0 +1,18 @@
+name = "Style team"
+description = "Meetings for the Style team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "6068c5d58bb71fcc90327ce07dee38a1dea0878b"
+title = "Style Team Meeting"
+description = """Style Team's weekly meeting."""
+location = "https://meet.jit.si/t-style-style-team-task-force"
+last_modified_on = "2025-06-23T11:45:00.00Z"
+start = { date = "2025-06-11T15:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-06-11T16:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-style", email = "style@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
