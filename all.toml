@@ -11,6 +11,7 @@ includes = [
   "lang.toml",
   "libs.toml",
   "spec.toml",
+  "style.toml",
   "vision.toml",
   "wg-binary-size.toml",
   "wg-embedded.toml",
