@@ -1,0 +1,18 @@
+name = "Vision team"
+description = "Meetings for the Vision team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "3ef00f70a6ed3c141bd77dd2f0279b2b7c967099"
+title = "Vision Team Meeting"
+description = """Vision Team's weekly meeting."""
+location = "https://meet.jit.si/i-see-rust-people"
+last_modified_on = "2025-06-10T12:45:00.00Z"
+start = { date = "2025-06-12T13:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-06-12T14:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
