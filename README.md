@@ -92,14 +92,9 @@ organizer = { name = "Who is running the event", email = "What is their email (o
 All dates must be in RFC 3339 format (the same as in the examples above), and must be in UTC (ending
 in `Z`).
 
-Each event have a globally unique identifier (because calendars can be included in other calendars,
+Each event have a globally UID (because calendars can be included in other calendars,
 they must be globally unique for this whole repository). It should never be changed after the
-calendar has been published. Just use the current UNIX time to basically guarantee that you don't
-overlap with anything or anyone else.
-
-On Linux, you can get the current UNIX time with  `date +%s%N | cut -b1-13`, and on Windows, with
-PowerShell, `([DateTimeOffset]::UtcNow).ToUnixTimeMilliseconds()`. Alternatively, you can copy the
-current UNIX time from a website like [currentmillis.com](https://currentmillis.com).
+calendar has been published, see [How to generate a UID for an event?](#how-do-i-generate-a-uid-for-a-new-event).
 
 See [*What is the schema for the calendars?*][schema] for a list of options you can set in an event.
 
