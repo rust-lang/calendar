@@ -41,6 +41,7 @@ current calendars in this repository:
     - [Style Team](https://rust-lang.github.io/calendar/style.ics)
     - [Vision Team](https://rust-lang.github.io/calendar/vision.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)
+  - [Content Team](https://rust-lang.github.io/calendar/content.ics)
   - Working Groups
     - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
     - [Binary Size Working Group](https://rust-lang.github.io/calendar/wg-binary-size.ics)

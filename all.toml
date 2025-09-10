@@ -5,6 +5,7 @@ description = "Meetings for all of the teams in the Rust project"
 includes = [
   "bootstrap.toml",
   "compiler.toml",
+  "content.toml",
   "council.toml",
   "dev-tools.toml",
   "infra.toml",
