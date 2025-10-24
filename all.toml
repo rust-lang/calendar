@@ -8,6 +8,7 @@ includes = [
   "content.toml",
   "council.toml",
   "dev-tools.toml",
+  "fls.toml",
   "infra.toml",
   "lang.toml",
   "libs.toml",

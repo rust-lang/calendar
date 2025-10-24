@@ -38,6 +38,7 @@ current calendars in this repository:
   - [Bootstrap Team](https://rust-lang.github.io/calendar/bootstrap.ics)
   - [Language Team](https://rust-lang.github.io/calendar/lang.ics)
     - [Spec Team](https://rust-lang.github.io/calendar/spec.ics)
+      - [FLS Team](https://rust-lang.github.io/calendar/fls.ics)
     - [Style Team](https://rust-lang.github.io/calendar/style.ics)
     - [Vision Team](https://rust-lang.github.io/calendar/vision.ics)
   - [Library Team](https://rust-lang.github.io/calendar/libs.ics)

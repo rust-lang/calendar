@@ -1,0 +1,18 @@
+name = "FLS team"
+description = "Meetings for the FLS team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "aed193a861c0be4d86eea743b73d6998923783f0"
+title = "FLS Team Meeting"
+description = "Review, planning, and catch-up with the FLS team"
+location = "https://meet.google.com/bhv-fdqk-qfz"
+last_modified_on = "2025-10-25T12:00:00.00Z"
+start = { date = "2025-10-31T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2025-10-31T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-fls", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
