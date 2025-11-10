@@ -9,9 +9,10 @@ uid = "1704803011896"
 title = "Rust Infrastructure Team Meeting"
 description = "Weekly team meeting of the infrastructure team"
 location = "#t-infra on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/242791-t-infra)"
-last_modified_on = "2024-01-10T14:54:28.44Z"
-start = { date = "2024-01-08T16:00:00.00", timezone = "Europe/Amsterdam" }
-end = { date = "2024-01-08T16:30:00.00", timezone = "Europe/Amsterdam" }
+last_modified_on = "2025-11-13T15:30:00Z"
+# Really, we use Europe/Rome, but this is close enough
+start = { date = "2025-11-17T15:30:00", timezone = "Europe/Amsterdam" }
+end = { date = "2025-11-17T16:00:00", timezone = "Europe/Amsterdam" }
 organizer = { name = "t-infra", email = "infra@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
 
