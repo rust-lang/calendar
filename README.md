@@ -47,6 +47,7 @@ current calendars in this repository:
     - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
     - [Binary Size Working Group](https://rust-lang.github.io/calendar/wg-binary-size.ics)
   - [Rust Releases](https://rust-lang.github.io/calendar/release.ics)
+  - [build-std](https://rust-lang.github.io/calendar/build-std.ics)
 
 You can copy these links and import them into your calendar application of choice.
 
