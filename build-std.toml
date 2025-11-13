@@ -1,0 +1,18 @@
+name = "build-std team"
+description = "Meetings for the build-std team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "b0c775bead66818a4d523a447c4abc7bf70a7fde"
+title = "build-std Team Meeting"
+description = "Go over the RFC comments, address feedback and next steps, moving the build-std feature forward"
+location = "https://armltd.zoom.us/j/97092509120?pwd=WL7IIYYIuXbH2pi9h2AajOj448VJaz.1&from=addon"
+last_modified_on = "2025-11-13T18:00:00.00Z"
+start = { date = "2025-11-13T17:30:00.00", timezone = "Europe/London" }
+end = { date = "2025-11-13T18:15:00.00", timezone = "Europe/London" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "build-std", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
