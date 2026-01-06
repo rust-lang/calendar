@@ -8,10 +8,10 @@ includes = [ "../_timezones.toml" ]
 uid = "1704823793158"
 title = "Cargo Team Weekly Meeting"
 description = """The Cargo team's weekly meeting.
-Notes: https://hackmd.io/_K2Le1ZbQEykvhIQvQI7Hw"""
+Notes: https://hackmd.io/@rust-cargo-team?q=meeting+notes"""
 location = "https://meet.jit.si/CargoTeamMeeting"
 created_on = "2024-01-09T18:14:00.94Z"
-last_modified_on = "2024-12-18T16:02:27.91Z"
+last_modified_on = "2026-01-06T17:00:00.00Z"
 start = { date = "2024-01-16T10:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-16T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
