@@ -62,6 +62,30 @@ status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 
 [[events]]
+uid = "s7rXO5FGSxvAklSN"
+title = "Office Hours: Jana"
+description = "Open office hours to chat about work and life. Usually organized by Jana."
+location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
+last_modified_on = "2026-01-12T15:59:00.00Z"
+start = { date = "2026-01-12T15:00:00.00", timezone = "Europe/London" }
+end = { date = "2026-01-12T16:00:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "jdonszelmann", email = "jana@donsz.nl" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
+uid = "s7rXO5FGSxvAklSS"
+title = "Office Hours: Jana"
+description = "Open office hours to chat about work and life. Usually organized by Jana."
+location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
+last_modified_on = "2026-01-12T15:59:00.00Z"
+start = { date = "2026-01-15T15:00:00.00", timezone = "Europe/London" }
+end = { date = "2024-01-15T16:00:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "jdonszelmann", email = "jana@donsz.nl" }
+recurrence_rules = [ { frequency = "weekly" } ]
+
+[[events]]
 uid = "1727268825442"
 title = "Co-Lead Office Hours: davidtwco"
 description = "Open office hours with davidtwco for team members, chat or ask questions about the compiler + team"
