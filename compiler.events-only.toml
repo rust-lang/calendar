@@ -219,3 +219,14 @@ start = { date = "2025-04-11T09:00:00.00", timezone = "America/New_York" }
 end = { date = "2025-04-11T10:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
+uid = "bc907884-2ea0-44f5-9b66-5ae1f78cc642"
+title = "steering: P-high Issue Review Q3/2025"
+description = "Continue going over our P-high tagged issues"
+location = "#t-compiler/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/238009-t-compiler.2Fmeetings/)"
+last_modified_on = "2025-07-13T12:00:00.00Z"
+start = { date = "2025-07-18T10:00:00", timezone = "America/New_York" }
+end = { date = "2025-07-18T11:00:00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
