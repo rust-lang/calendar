@@ -1,7 +1,7 @@
 name = "Rust Async Working Group Team"
 description = "Meetings for the async working group"
 
-# Active recurring events
+# Past recurring events
 
 [[events]]
 uid = "1626e53f9596461fcb0ec39d032178cd0afe5943"
@@ -10,13 +10,13 @@ description = """This is a design meeting of the Rust async working \
 group.  Our scheduled design meetings can be found here: \
 https://github.com/orgs/rust-lang/projects/40"""
 location = "https://meet.google.com/tuz-bjjo-vdv"
-last_modified_on = "2024-04-18T00:00:00.00Z"
+last_modified_on = "2026-01-31T00:00:00.00Z"
 start = { date = "2024-04-04T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-04-04T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly" } ]
+recurrence_rules = [ { frequency = "weekly", until = "2026-01-31T00:00:00.00Z" } ]
 
 [[events]]
 uid = "60e5fda275e55710237fed8515570c1ba051a521"
@@ -26,28 +26,26 @@ group.  In this meeting, we schedule design meetings for the month, \
 and those meetings can be found here: \
 https://github.com/orgs/rust-lang/projects/40"""
 location = "https://meet.google.com/tuz-bjjo-vdv"
-last_modified_on = "2024-04-18T00:00:00.00Z"
+last_modified_on = "2026-01-31T00:00:00.00Z"
 start = { date = "2024-04-04T13:00:00.00", timezone = "America/New_York" }
 end = { date = "2024-04-04T14:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "monthly" } ]
+recurrence_rules = [ { frequency = "monthly", until = "2026-01-31T00:00:00.00Z" } ]
 
 [[events]]
 uid = "1704472122081"
 title = "WG-async Triage Meeting"
 description = """This is a triage meeting of the Rust async working group."""
 location = "https://meet.google.com/tuz-bjjo-vdv"
-last_modified_on = "2024-04-10T00:00:00.00Z"
+last_modified_on = "2026-01-31T00:00:00.00Z"
 start = { date = "2024-01-15T11:30:00.00", timezone = "America/New_York" }
 end = { date = "2024-01-15T12:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "wg-async", email = "compiler@rust-lang.org" }
-recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
-
-# Past recurring events
+recurrence_rules = [ { frequency = "weekly", interval = 2, until = "2026-01-31T00:00:00.00Z" } ]
 
 [[events]]
 uid = "1704471961833"
