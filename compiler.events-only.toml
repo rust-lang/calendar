@@ -219,3 +219,14 @@ start = { date = "2025-04-11T09:00:00.00", timezone = "America/New_York" }
 end = { date = "2025-04-11T10:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
+
+[[events]]
+uid = "3b27f6afd6d03bbc661b0cb99fefb22d6ac8e33b"
+title = "Project Goals Office Hours - Compiler Team"
+description = "Jitsi call with Project Goals Team to review compiler-tagged goals"
+location = "https://meet.jit.si/goooooaaaaals"
+last_modified_on = "2026-02-12T12:00:00.00Z"
+start = { date = "2026-02-23T10:00:00.00", timezone = "America/Chicago" }
+end = { date = "2026-02-23T11:00:00.00", timezone = "America/Chicago" }
+status = "confirmed"
+organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
