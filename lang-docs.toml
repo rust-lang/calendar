@@ -1,0 +1,18 @@
+name = "Rust lang-docs Team"
+description = "Meetings for the lang-docs team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "218e64d36ae05c0fc2515b3deb47ee805843e3c4"
+title = "lang-docs office hours"
+description = "Review open pull requests and issues for the Reference."
+location = "https://meet.jit.si/rust-t-lang-docs"
+last_modified_on = "2026-03-19T13:00:00.00Z"
+start = { date = "2026-03-24T11:00:00.00", timezone = "America/Los_Angeles" }
+end = { date = "2026-03-24T12:00:00.00", timezone = "America/Los_Angeles" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-lang-docs", email = "lang@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
