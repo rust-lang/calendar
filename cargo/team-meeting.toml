@@ -17,7 +17,10 @@ end = { date = "2024-01-16T11:00:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "T-cargo", email = "cargo@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly" } ]
-exceptions = [
-    "2024-12-24T15:00:00.00Z",
-    "2024-12-31T15:00:00.00Z"
-]
+exceptions = {
+    timezone = "America/New_York",
+    dates = [
+        "2024-12-24T15:00:00.00",
+        "2024-12-31T15:00:00.00",
+    ],
+}
