@@ -66,8 +66,8 @@ organizer = { name = "t-compiler", email = "compiler@rust-lang.org" }
 uid = "s7rXO5FGSxvAklSN"
 title = "Office Hours: Jana"
 description = "Open office hours to chat about work and life. Usually organized by Jana."
-location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
-last_modified_on = "2026-05-13T14:00:00.00Z"
+location = "https://rust-lang.zulipchat.com/#narrow/channel/605946-t-compiler.2Foffice-hours/topic/scheduling/with/602176700"
+last_modified_on = "2026-06-11T16:00:00.00Z"
 start = { date = "2026-01-12T15:00:00.00", timezone = "Europe/London" }
 end = { date = "2026-01-12T16:00:00.00", timezone = "Europe/London" }
 status = "confirmed"
@@ -89,8 +89,8 @@ exceptions = {
 uid = "s7rXO5FGSxvAklSS"
 title = "Office Hours: Jana"
 description = "Open office hours to chat about work and life. Usually organized by Jana."
-location = "https://rust-lang.zulipchat.com/#narrow/stream/244344-t-compiler.2Fcontrib-private/topic/office.20hours.2Fsocial/near/472690951"
-last_modified_on = "2026-05-13T14:00:00.00Z"
+location = "https://rust-lang.zulipchat.com/#narrow/channel/605946-t-compiler.2Foffice-hours/topic/scheduling/with/602176700"
+last_modified_on = "2026-06-11T16:00:00.00Z"
 start = { date = "2026-01-15T15:00:00.00", timezone = "Europe/London" }
 end = { date = "2026-01-15T16:00:00.00", timezone = "Europe/London" }
 status = "confirmed"
