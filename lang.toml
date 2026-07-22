@@ -36,8 +36,8 @@ recurrence_rules = [ { frequency = "weekly" } ]
 uid = "ada7b7ec9f53c6bfde5ddb8ac14617678b39ba98"
 title = "Library Trait Evolution"
 description = "Discuss existing proposals, issues they tackle and challenges to implementing them."
-location = "https://meet.jit.si/ferris-rules"
-last_modified_on = "2026-06-30T16:30:00.00Z"
+location = "https://meet.jit.si/librarytraitevolutionetcetc"
+last_modified_on = "2026-07-22T13:30:00.00Z"
 start = { date = "2026-06-30T12:30:00.00", timezone = "America/New_York" }
 end = { date = "2026-06-30T13:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
