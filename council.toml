@@ -27,3 +27,15 @@ end = "2026-09-01T14:00:00.00Z"
 status = "confirmed"
 organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
 recurrence_rules = [ { frequency = "monthly", interval = 3 } ]
+
+[[events]]
+uid = "d5f4fa824fa28d029d2c999ddf8fafa50c993b0e"
+title = "Leadership Council Performance survey"
+description = "Write and publish the regular Leadership Council Performance survey amongst Rust Project members. Once the survey is finished, analyze the results and write a blog post."
+location = "Rust Project Zulip"
+last_modified_on = "2026-07-23T08:00:00.00Z"
+start = "2027-06-01T13:00:00.00Z"
+end = "2027-06-01T14:00:00.00Z"
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
+recurrence_rules = [ { frequency = "yearly", interval = 1 } ]
