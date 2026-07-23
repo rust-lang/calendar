@@ -15,3 +15,15 @@ end = { date = "2024-01-19T12:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 2 } ]
+
+[[events]]
+uid = "abeb70d949c5d5bfa94372a89a8a0574a13980d6"
+title = "Leadership Council Update blog post"
+description = "Write and publish the regular Leadership Council Update blog post on the Inside Rust blog"
+location = "Inside Rust blog"
+last_modified_on = "2026-07-23T08:00:00.00Z"
+start = "2026-09-01T13:00:00.00Z"
+end = "2026-09-01T14:00:00.00Z"
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly", interval = 3 } ]
