@@ -39,3 +39,15 @@ end = "2027-06-01T14:00:00.00Z"
 status = "confirmed"
 organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
 recurrence_rules = [ { frequency = "yearly", interval = 1 } ]
+
+[[events]]
+uid = "0b74e6b3054d7bcb52161047d0b25d00d483b6bb"
+title = "Leadership Council member rotation"
+description = "Half of the Council rotates out. Coordinate with Program managers to organize elections. Once they are done, welcome the new members."
+location = "Rust Project Zulip"
+last_modified_on = "2026-07-23T08:00:00.00Z"
+start = "2026-09-01T14:00:00.00Z"
+end = "2026-09-01T15:00:00.00Z"
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
+recurrence_rules = [ { frequency = "monthly", interval = 6 } ]
