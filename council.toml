@@ -51,3 +51,15 @@ end = "2026-09-01T15:00:00.00Z"
 status = "confirmed"
 organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
 recurrence_rules = [ { frequency = "monthly", interval = 6 } ]
+
+[[events]]
+uid = "d7a55f4e92fe7a3ccb3c706a9ee342a0695481c8"
+title = "Project Director election"
+description = "Facilitate the annual Project Director elections. Coordinate with Program managers to gather nominations and then perform the election itself."
+location = "Rust Project Zulip"
+last_modified_on = "2026-07-23T08:00:00.00Z"
+start = "2026-08-24T14:00:00.00Z"
+end = "2026-08-24T15:00:00.00Z"
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
+recurrence_rules = [ { frequency = "yearly", interval = 1 } ]
