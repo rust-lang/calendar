@@ -1,0 +1,18 @@
+name = "Goals team"
+description = "Meetings for the Goals team"
+
+[meta]
+includes = [ "_timezones.toml" ]
+
+[[events]]
+uid = "d89a77c5f84bf7190c0cdb4bf6a4e070b329e468"
+title = "Goals Team Meeting"
+description = "Discussion of the Project Goals meta"
+location = "https://meet.jit.si/rust-project-goals-are-hashtag-goals"
+last_modified_on = "2026-08-03T12:18:00.00Z"
+start = { date = "2026-08-06T10:00:00.00", timezone = "America/New_York" }
+end = { date = "2026-08-06T11:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+transparency = "opaque"
+organizer = { name = "t-goals", email = "goals@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
