@@ -123,7 +123,7 @@ If the event isn't recurring, then you don't need to remove it, it'll just stay 
 in the past. If the event is incorrect, you can always update it, see
 [*How do I update an event?*][update].
 
-If the event is recurring, add `until` to the recurrence rules to stop the event atthe current date,
+If the event is recurring, add `until` to the recurrence rules to stop the event at the current date,
 preventing future recurrences. For example, this rule..
 
 ```toml
