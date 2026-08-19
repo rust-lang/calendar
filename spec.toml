@@ -9,10 +9,10 @@ uid = "b7af715576cc229aaf8c532ea89bb6ace1c91a65"
 title = "Rust Spec Team Meeting (async)"
 description = """The Rust language specification team meeting. Async, updates in #t-spec."""
 location = "https://meet.jit.si/rust-t-spec"
-last_modified_on = "2026-08-11T10:00:00.00Z"
+last_modified_on = "2026-08-19T17:10:00.00Z"
 start = { date = "2026-08-20T11:00:00.00", timezone = "America/New_York" }
 end = { date = "2026-08-20T11:30:00.00", timezone = "America/New_York" }
 status = "confirmed"
 transparency = "opaque"
 organizer = { name = "t-spec", email = "lang@rust-lang.org" }
-recurrence_rules = [ { frequency = "monthly", interval = 1 } ]
+recurrence_rules = [ { frequency = "weekly", interval = 4 } ]
