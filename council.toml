@@ -63,3 +63,14 @@ end = "2026-08-24T15:00:00.00Z"
 status = "confirmed"
 organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
 recurrence_rules = [ { frequency = "yearly", interval = 1 } ]
+
+[[events]]
+uid = "6236bd2c70cc9614b500d875d065b8de1b863b56"
+title = "2026 Project Director election"
+description = "Private Council meeting to elect the PDs for 2026"
+location = "TBD"
+last_modified_on = "2026-09-03T14:36:28.00Z"
+start = { date = "2026-10-02T11:30:00.00", timezone = "America/New_York" }
+end = { date = "2026-10-02T13:30:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "Rust Leadership Council", email = "council@rust-lang.org" }
