@@ -4,6 +4,7 @@ description = "Meetings for the compiler team and its working groups"
 [meta]
 includes = [
   "compiler.events-only.toml",
+  "project-const-generics.toml",
   "project-stable-mir.toml",
   "rust-analyzer.toml",
   "types.toml",
