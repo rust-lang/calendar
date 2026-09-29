@@ -1,0 +1,14 @@
+name = "Const Generics Project Group"
+description = "Working to advance const generics support in the Rust language"
+
+[[events]]
+uid = "5ecc9a3aeb09c01f9e18077b19d23d7be59f13e3"
+title = "Project Const Generics talkies"
+description = "Weekly talkies to yap about what's going on in const generics"
+location = "#project-const-generics on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/260443-project-const-generics)"
+last_modified_on = "2026-09-29T00:00:00.00Z"
+start = { date = "2026-09-28T16:00:00.00", timezone = "Europe/London" }
+end = { date = "2026-09-28T17:00:00.00", timezone = "Europe/London" }
+status = "confirmed"
+organizer = { name = "project-const-generics", email = "compiler@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]

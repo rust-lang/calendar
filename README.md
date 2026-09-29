@@ -19,6 +19,7 @@ current calendars in this repository:
   - [Leadership Council](https://rust-lang.github.io/calendar/council.ics)
   - [Compiler Team + Working Groups](https://rust-lang.github.io/calendar/compiler.ics)
     - [Compiler Team](https://rust-lang.github.io/calendar/compiler.events-only.ics)
+    - [Const Generics Project Group](https://rust-lang.github.io/calendar/project-const-generics.ics)
     - [Stable MIR Project Group](https://rust-lang.github.io/calendar/project-stable-mir.ics)
     - [Rust Analyzer](https://rust-lang.github.io/calendar/rust-analyzer.ics)
     - [Async Working Group](https://rust-lang.github.io/calendar/wg-async.ics)
