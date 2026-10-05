@@ -7,9 +7,9 @@ includes = [ "_timezones.toml" ]
 [[events]]
 uid = "1704816854336"
 title = "Libs Meeting"
-description = "Weekly t-libs meeting for nominated items and ACPs. We can finish early if the discussion has been too draining."
-location = "#t-libs/meetings on Zulip (https://rust-lang.zulipchat.com/#narrow/stream/259402-t-libs.2Fmeetings)"
-last_modified_on = "2026-08-05T22:07:03.47Z"
+description = "Weekly t-libs meeting for nominated items and ACPs. We can finish early if the discussion has been too draining. (https://rust-lang.zulipchat.com/#narrow/channel/259402-t-libs.2Fmeetings)"
+location = "https://meet.jit.si/the-libs-agenda"
+last_modified_on = "2026-10-05T08:07:22.00Z"
 start = { date = "2024-01-09T08:00:00.00", timezone = "US/Pacific" }
 end = { date = "2024-01-09T11:00:00.00", timezone = "US/Pacific" }
 status = "confirmed"
