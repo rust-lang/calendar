@@ -10,6 +10,7 @@ includes = [
   "council.toml",
   "dev-tools.toml",
   "fls.toml",
+  "goals.toml",
   "infra.toml",
   "lang.toml",
   "libs.toml",
