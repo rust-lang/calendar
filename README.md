@@ -49,7 +49,9 @@ current calendars in this repository:
     - [Embedded Devices Working Group](https://rust-lang.github.io/calendar/wg-embedded.ics)
     - [Binary Size Working Group](https://rust-lang.github.io/calendar/wg-binary-size.ics)
   - [Rust Releases](https://rust-lang.github.io/calendar/release.ics)
+  - [Release Team](https://rust-lang.github.io/calendar/release-team.ics)
   - [build-std](https://rust-lang.github.io/calendar/build-std.ics)
+- [Goals Team](https://rust-lang.github.io/calendar/goals.ics)
 
 You can copy these links and import them into your calendar application of choice.
 
@@ -97,7 +99,7 @@ organizer = { name = "Who is running the event", email = "What is their email (o
 All dates must be in RFC 3339 format (the same as in the examples above), and must be in UTC (ending
 in `Z`).
 
-Each event have a globally UID (because calendars can be included in other calendars,
+Each event must have a globally unique UID (because calendars can be included in other calendars,
 they must be globally unique for this whole repository). It should never be changed after the
 calendar has been published, see [How to generate a UID for an event?](#how-do-i-generate-a-uid-for-a-new-event).
 
@@ -124,7 +126,7 @@ If the event isn't recurring, then you don't need to remove it, it'll just stay 
 in the past. If the event is incorrect, you can always update it, see
 [*How do I update an event?*][update].
 
-If the event is recurring, add `until` to the recurrence rules to stop the event atthe current date,
+If the event is recurring, add `until` to the recurrence rules to stop the event at the current date,
 preventing future recurrences. For example, this rule..
 
 ```toml
