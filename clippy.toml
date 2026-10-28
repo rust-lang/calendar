@@ -48,3 +48,16 @@ start = "2024-02-08"
 status = "confirmed"
 organizer = { name = "clippy", email = "clippy@rust-lang.org" }
 recurrence_rules = [ { frequency = "weekly", interval = 6 } ]
+
+
+[[events]]
+uid = "b369fe117f7394893e5b319f1126082aab262021"
+title = "Clippy Office Hours"
+description = "Office hours, useful for Clippy contributors to ask questions and hang out"
+location = "https://meet.jit.si/ClippyTheBetterPaperclip"
+last_modified_on = "2026-10-28T18:00:00.00Z"
+start = { date = "2026-10-28T11:30:00.00", timezone = "America/New_York" }
+end = { date = "2026-10-28T13:00:00.00", timezone = "America/New_York" }
+status = "confirmed"
+organizer = { name = "clippy", email = "clippy@rust-lang.org" }
+recurrence_rules = [ { frequency = "weekly" } ]
